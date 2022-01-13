@@ -8,7 +8,8 @@ description: >
   Modernized design, big headlines, and big new features.
 sitemap: false
 categories:
-  - example1
+  - study
+  - kotlin
 ---
 
 Version 9 is the most complete version of Hydejack yet.

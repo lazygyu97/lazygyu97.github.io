@@ -14,7 +14,8 @@ related_posts:
   - /example/2012-02-07-example-content/
 sitemap: false
 categories:
-  - example1
+  - study
+  - java
 ---
 
 Hydejack offers a few additional features to markup your markdown.

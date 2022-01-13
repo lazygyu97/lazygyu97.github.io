@@ -50,10 +50,29 @@ menu:
 
   - title:             About
     url:               /about/
-  - title:              Example1
-    url:                /example1/
-  - title:              Example2
-    url:                /example2/ 
+
+  - title:              Study
+    url:                /study/
+    submenu:
+          - title:              코딩테스트
+            url:                /codingtest/
+          - title:              자바
+            url:                /java/
+          - title:              코틀린
+            url:                /kotlin/ 
+          - title:              웹개발
+            url:                /webst/
+          - title:              앱개발
+            url:                /appst/    
+  - title:              Project
+    url:                /project/
+    submenu:
+      - title:              웹 프로젝트
+        url:                /webpr/
+      - title:              앱 프로젝트
+        url:                /apppr/ 
+
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -79,7 +98,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.0.0-rc.6
 
 
